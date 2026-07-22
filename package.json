@@ -1,0 +1,14 @@
+{
+  "name": "eiko-annabi-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve dist -l 3000"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
