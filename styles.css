@@ -14,3 +14,8 @@
 
 /* Detailed consulting and language skills */
 .skill-grid-detailed{align-items:stretch}.skill-grid-detailed article{display:flex;flex-direction:column}.skill-list{margin:10px 0 0;padding-left:19px;color:var(--muted);font-size:14px;line-height:1.65}.skill-list li+li{margin-top:5px}.language-card{grid-column:1/-1}.language-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:12px 0 0;padding:0;list-style:none}.language-list li{display:flex;flex-direction:column;gap:3px;padding:16px;border-radius:12px;background:#fff;border:1px solid var(--line)}.language-list strong{color:var(--ink)}.language-list span{color:var(--muted);font-size:14px}@media(max-width:760px){.language-list{grid-template-columns:1fr}.language-card{grid-column:auto}}
+
+/* Expanded development and cloud skills */
+.development-card{grid-column:1/-1}.development-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:16px}.development-grid section{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px}.development-grid h4{margin:0;color:var(--navy);font-size:15px}.development-grid .skill-list{columns:1}
+@media(max-width:900px){.development-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:580px){.development-card{grid-column:auto}.development-grid{grid-template-columns:1fr}.development-grid section{padding:16px}}
